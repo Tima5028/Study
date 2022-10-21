@@ -1,0 +1,81 @@
+3443
+a=2**179
+print(a)
+
+3445
+a=input("Введите длину катета 1: ")
+a=float(a)
+b=input  ("Введите длину катета 2: ")
+b=float(b)
+c=(a**2+b**2)**0.5
+print("Гипотенуза равна: ",c)
+
+# 3455
+a=input("Введите длину катета 1: ")
+a=int(a)
+b=input  ("Введите длину катета 2: ")
+b=int(b)
+c=(a**2+b**2)**0.5
+round(c,10)
+print("Гипотенуза равна: ",c)
+
+3456
+name=input("Введите своё имя: ")
+print(f"Hello, {name}!")
+
+3502
+a=input("Введите число 1: ")
+b=input("Введите число 2: ")
+if a>b:
+    print (a)
+elif b>a:
+    print(b)
+else:
+    print ("числа равны")
+
+3503
+x=input("Введите число x: ")
+x=float(x)
+if x>0:
+    print ("1")
+elif x<0:
+    print("-1")
+else:
+    print ("0")
+
+3735
+x=input("Введите строку: ")
+print(x[2],"\n", x[-2],"\n",x[0:5],"\n",x[0:-2],"\n",x[0:1000:2],"\n",x[1:1000:2],"\n",x[-1::-1],"\n",x[-1::-2],"\n",
+      len(x))
+
+3736
+x=input("Введите строку: ")
+b=x.count(" ")
+print(b+1)
+
+111300
+x=input("Введите символ: ")
+b=ord(x)
+print(b)
+
+111301
+x=input("Введите число: ")
+x=int(x)
+b=chr(x)
+print(b)
+
+111318
+x=input("Введите первую строку: ")
+y=input("Введите вторую строку: ")
+if x in y:
+    print("YES")
+else:
+    print("NO")
+
+111318
+x=input("Введите первую строку: ")
+y=input("Введите вторую строку: ")
+if isSubstrng(x,y):
+    print("YES")
+else:
+    print("NO")
